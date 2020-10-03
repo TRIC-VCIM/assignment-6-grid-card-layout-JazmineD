@@ -1,0 +1,93 @@
+.site{
+  background-color: black;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px,2fr));
+  grid-auto-rows: auto;
+  grid-gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card{
+  display: grid; 
+  grid-template-columns: 10px 10px/*repeat(auto-fill, minmax(200px,2fr));*/
+  grid-template-rows: 1fr 1fr; 
+  border: 2px solid black;
+  border-color: white;
+  border-radius: 1em;
+  padding: 10px;
+  color: white;
+
+}
+
+ img{
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  grid-column: 1;
+  grid-row: 2;
+
+}
+
+h1{
+ text-align: center;
+}
+
+h3{
+text-align: center;
+}
+
+header{
+color: aqua;
+text-align: center;
+font-size: 20px;
+}
+
+p{
+text-align: center;
+}
+
+footer{
+color: aquamarine;
+margin: 5px;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
